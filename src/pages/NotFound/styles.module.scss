@@ -1,0 +1,38 @@
+.container {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: calc(100vh - 7.1rem);
+}
+
+.logo {
+    background-image: url('../../../public/icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    z-index: 0;
+}
+
+.nfound {
+    z-index: 1;
+    font-size: 2.5rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.darkmode {
+    background-color: #111!important;
+    color: #fff;
+}
+
+.thin_darkmode {
+    background-color: #333;
+}
